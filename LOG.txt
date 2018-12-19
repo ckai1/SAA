@@ -1,0 +1,17 @@
+---
+v0.1 2018/12/19
+First release of pySAA alpha on github
+
+
+---
+Potential todos for next release
+
+General:
+- Save output information when an analysis is run so the results can be replicated
+- Migrate to a pure Python approach (reimplement the matlab core SAA function to python)
+	- Include a mapping function to represent ordinal variables
+For matlab part:
+- Improve MATLAB-Python communication
+- Change to Object-Oriented programming (OOP) for the MATLAB modules: "prepare data" and "extract and decode data"
+
+

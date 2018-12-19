@@ -1,0 +1,75 @@
+==============================================================
+Python Simple Analysis Approach implementation (pySAA) alpha
+==============================================================
+
+2018 Daniel Vargas Herrera and Kai Goergen
+
+pySAA is free software; you can redistribute it and/or
+modify it under the terms of the GNU General Public Licence 
+as published by the Free Software Foundation.
+
+This program is distributed in the hope that it will be useful, 
+but WITHOUT ANY WARRANTY; without even the implied warranty of 
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the 
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License 
+along with this program (GPLv2.0.txt); if not, write to the Free Software 
+Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.
+
+
+=== (Potential) external dependencies ===
+
+Python, 
+and its following packages
+- Scikit Learn
+----------------------------
+Copyright (c) 2007–2018 The scikit-learn developers.
+All rights reserved.
+----------------------------
+- Scipy
+----------------------------
+Copyright © 2001, 2002 Enthought, Inc.
+All rights reserved.
+
+Copyright © 2003-2013 SciPy Developers.
+All rights reserved.
+----------------------------
+- Numpy
+Copyright © 2005-2018, NumPy Developers.
+All rights reserved.
+----------------------------
+- Pandas
+Copyright (c) 2011-2012, Lambda Foundry, Inc. and PyData Development Team
+All rights reserved.
+
+Copyright (c) 2008-2011 AQR Capital Management, LLC
+All rights reserved.
+----------------------------
+- Bokeh
+Copyright (c) 2012 - 2018, Anaconda, Inc., and Bokeh Contributors
+All rights reserved.
+----------------------------
+- Matplotlib
+----------------------------
+
+For the matlab example
+Matlab, 
+and its following packages
+- The Decoding Toolbox (TDT)
+----------------------------
+2009-2018 Martin N. Hebart and Kai Goergen
+
+Please cite as 
+ "Multivariate classification analyses were performed using The Decoding 
+Toolbox (Hebart, Goergen, & Haynes, 2015)."
+
+The Decoding Toolbox is free software; you can redistribute it and/or
+modify it under the terms of the GNU General Public Licence 
+as published by the Free Software Foundation.
+
+This program is distributed in the hope that it will be useful, 
+but WITHOUT ANY WARRANTY; without even the implied warranty of 
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the 
+GNU General Public License for more details.
+
