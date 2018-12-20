@@ -1,3 +1,14 @@
+===================
+VERSION INFORMATION
+===================
+
+Please note: This version of the SAA toolbox is work in progress. 
+It has undergone only little testing and especially the documentation is in a 
+very early stage.
+
+Of course you are welcome to use what is there, but we suggest  to contact us
+(e.g. create a new issue) if you like to use it.
+
 ========
 CONTENTS
 ========
@@ -29,7 +40,7 @@ is to cite it. Please use the following reference:
 
 Goergen, K., Hebart, M. N., Allefeld, C., & Haynes, J.-D. (2018).
 The Same Analysis Approach: Practical protection against the pitfalls of 
-novel neuroimaging analysis methods. NeuroImage, 180, 19–30. 
+novel neuroimaging analysis methods. NeuroImage, 180, 19â€“30. 
 https://doi.org/10.1016/j.neuroimage.2017.12.083
 
 ================================
@@ -59,7 +70,7 @@ of course also use the statistics utilities provided by the toolbox.
 	1a. If you like to run the matlab example, install TDT (Hebart, Goergen,
 		et al, see: bccn-berlin.de/tdt)
 
-2. Prepare your data fiels according to the specifications.
+2. Prepare your data according to the specifications.
 
 3. With a command line change to the pySAA folder.
 
