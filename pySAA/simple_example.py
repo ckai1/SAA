@@ -61,7 +61,7 @@ def subject2DataFrame(files):
     return pd.concat(dframes).sort_values('name')
     
 
-def process_subject(general_file, sub_ind, sessions, cv, plot_cv=False):
+def process_subject(general_file, sub_ind, sessions, cv, plot_cv=True):
     """
     Main loop over subjects. Their information is parsed and decoded.
     """
@@ -72,13 +72,14 @@ def process_subject(general_file, sub_ind, sessions, cv, plot_cv=False):
     result = subject2DataFrame(files)
     groups = result.sess_ind
     labels = result.name
+    chance_level = 1.0 / len(set(labels))
     scores = []
     # Instead of looping over the variables that we have what could be done is to read
     # the decoding sets from a separate file
     for field in result:
         data = np.array([result[field]]).T
         score = np.mean(cross_val_score(clf, data, labels, cv=cv, groups=groups))
-        scores.append(score)
+        scores.append(score - chance_level)
    
     # Plot cross_validation design if requested: this should come from argument or config file
     if plot_cv:

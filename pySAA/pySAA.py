@@ -8,7 +8,6 @@
 
 import argparse
 import numpy as np
-import matlab.engine
 import os
 import pandas as pd
 import scipy.io as sio
@@ -28,6 +27,7 @@ class SAA_Interface:
         self.no_plot = args.no_plot
         self.no_matlab = args.no_matlab
         if not self.no_matlab:
+            import matlab.engine
             self.eng = self._start_matlab()
         else:
             self.n_subs = args.n_subjects
