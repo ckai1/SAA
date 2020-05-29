@@ -9,6 +9,10 @@ very early stage.
 Of course you are welcome to use what is there, but we suggest  to contact us
 (e.g. create a new issue) if you like to use it.
 
+See also the great pysaa_technical_specification.docx (most likely in 
+"Documentation", if it moved, use the search function to search through the 
+current repository).
+
 ========
 CONTENTS
 ========
