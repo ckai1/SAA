@@ -2,35 +2,12 @@
 VERSION INFORMATION
 ===================
 
-Please note: These versions of SAA toolboxes are work in progress. 
+Please note: This version of the SAA toolbox is work in progress. 
+It has undergone only little testing and especially the documentation is in a 
+very early stage.
 
-If you use them: We are happy to learn about any potential problems you might 
-have, preferably by creating issues (if we don't respond to that, feel also 
-free to email us).
-
-The repository currently contains two independent implementations:
-
----
-1. TDT-SAA in matlab/tdt-saa
----
-
-An implementation of SAA for TDT (The decoding toolbox; Hebart*, Goergen*, et
-al, 2017; bccn-berlin.de/tdt). Albeit in an early beta stage, this version
-of tdt-saa is already used in practice and should contain enough information to 
-allow researchers with intermediate programming skills setting up and using 
-SAA for their TDT analysis. Don't hesitate to contact us with questions.
-
-Note: if there is no matlab/tdt-saa folder: tdt-saa will come very soon. If you want it know, please email me.
-
----
-2. pySAA (pronounce: [ˈpittsa]) in python/pySAA
----
-
-A very early, general implementation of SAA in python. It has undergone only
-little testing and especially the documentation is, as said, in a very early
-stage. At current stage, the implementation should only be interesting for be
-developers that like to develop an SAA implementation in python. Of course you are welcome to use what is there, but we suggest to contact us if you like to 
-use it.
+Of course you are welcome to use what is there, but we suggest  to contact us
+(e.g. create a new issue) if you like to use it.
 
 ========
 CONTENTS
@@ -89,29 +66,13 @@ of course also use the statistics utilities provided by the toolbox.
 4. INSTALLING THE PACKAGE
 =========================
 
----
-4.1 tdt-saa (matlab)
----
-
-1. Download the folder TDT_SAA (matlab/TDT_SAA)
-  1a. If you like to run the matlab example (yes, the pySAA should include pipelines that work with different programming languages): install TDT (Hebart, Goergen, et al, see: bccn-berlin.de/tdt)
-
-2. Read README.txt, try the demos in /demos and the example in /example.
-
----
-4.2 pySAA (python)
----
-
-1. Download the folder pySAA (python/pySAA)
-  1a. If you like to run the matlab example (yes, the pySAA should include pipelines that work with different programming languages): install TDT (Hebart, Goergen, et al, see: bccn-berlin.de/tdt)
+1. Download the folder pySAA.
+	1a. If you like to run the matlab example, install TDT (Hebart, Goergen,
+		et al, see: bccn-berlin.de/tdt)
 
 2. Prepare your data according to the specifications.
 
 3. With a command line change to the pySAA folder.
 
 4. Run the file interface.py with the selected options.
-[More extensive documentation might come soon/might already be in the repository]
-
-
-Enjoy SAA!
-Kai
+	[More extensive documentation will soon/might already be in the repository]

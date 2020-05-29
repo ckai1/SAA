@@ -1,0 +1,12 @@
+.DS_Store
+desktop.ini
+~$*.doc*
+~$*.xls*
+~$*.rtf*
+~$*.ppt*
+*.ppt
+*.tmp
+*.asv
+*.~*
+*.m~
+*.txt~
